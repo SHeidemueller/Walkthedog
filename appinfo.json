@@ -1,0 +1,46 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "susann.heidemueller@gmail.com",
+    "longName": "Walk the Dog",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/black-paw.png",
+                "menuIcon": true,
+                "name": "IMAGES_BLACK_PAW_PNG",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "Walk the Dog",
+    "uuid": "1314b5d2-97bf-4f99-a245-6f9815cd1af5",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}

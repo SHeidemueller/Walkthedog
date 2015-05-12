@@ -2,7 +2,7 @@ var ajax = require('ajax');
 var errorView = require('./error_view');
 
 //insert your own wistle Auth Token
-var whiste_Auth_Token = '3ca099a507ac0d9d931526624ae4e8ae';
+var whiste_Auth_Token = 'YOUR AUTH TOKEN';
 
 
 var dogs = [];

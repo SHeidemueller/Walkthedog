@@ -6,9 +6,6 @@ var whiste_Auth_Token = 'YOUR AUTH TOKEN';
 
 
 var dogs = [];
-//var activity;
-//var goal;
-//var lastSync;
 
 function getDog(callback) {
     ajax({
@@ -62,7 +59,7 @@ function getDog(callback) {
         errorView.show(msg, error);
         callback("Error", null);
     });
-    // ende
+    // end
 }
 
 
@@ -77,7 +74,7 @@ function getInfo(dog, callback) {
         },
 
         function(json) {
-            // get lastest dog activity and goal
+            // get latest dog activity and goal
             var activity = json[0].minutes_active;
             var goal = json[0].activity_goal;
             var lastSync = json[0].updated_at;

@@ -2,9 +2,10 @@ var UI = require('ui');
 var Vector2 = require('vector2');
 var dog_ajax = require('./dog_ajax');
 var dogs;
+
+// Create the Windows - splash, main and  Dog Stats (Info)
 var main;
 
-// Create the Windows - splash, main and  Dog Stats
 var info = new UI.Window({
     fullscreen: true
 });
